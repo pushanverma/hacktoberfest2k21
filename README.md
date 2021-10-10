@@ -1,93 +1,137 @@
-# hacktoberfest2k21
+# Hacktoberfest 2021 is here !!!
 
-![Issues](https://img.shields.io/github/issues/twowaits/make-pull-request)
-![Stars GitHub](https://img.shields.io/github/stars/twowaits/make-pull-request)
-![Forks](https://img.shields.io/github/forks/twowaits/make-pull-request)
-[![project chat](https://img.shields.io/badge/telegram-join--chat-brightgreen)](https://t.me/joinchat/AAAAAFbbJqzUyF18Okx94A)
+## Welcome to Hacktoberfest 2021.
 
-## make-pull-request
-It's an initiative by Twowaits Technologies to help create more awareness about Open Source and help introduce many more students to the benefits of FOSS. We will organize lots of events that will prove to be very profitable for the students and encourage them to contribute in open source, this is our humble step.
+Aim of this repository is to help someone to learn, participate in Hacktober and contribute their code.
+Any Program in any language accecpted.
+If you can explain your code with submission of it that would be better for beginners to understand.
+This is the platform to share your code. So, share it.
 
-Lots of students struggle in creating their first PR. They try somewhat and leave when couldn't. We created this as learning repo on how to create successful pull requests on languages like JAVA, Python, C++, HTML/CSS.
+## Requirements
 
-You can look at the issues [here](https://github.com/twowaits/make-pull-request/issues) and choose which one you would like to work on! Do check the [Contributing.md](https://github.com/twowaits/make-pull-request/blob/master/CONTRIBUTING.md) so that you don't face any troubles.
+0. Must have a github account.
+1. Latest git software must be installed.
+2. Knowledge of git and github.
+3. Knowledge about some programming languages to contribute.
+4. Coding IDE (recommended VS Code).
 
-## How to particpate in Hacktoberfest 2021
+## What is Hacktoberfest?
 
-How to register, some important rules to follow, which repos to contribute and other details in a 17 mins quick video on our Youtube Channel.
+Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. You can do this in a variety of ways:
 
-[![](https://raw.githubusercontent.com/twowaits/make-pull-request/master/Images/Hacktoberfest_2021_YT_Thumbnail.png)](https://youtu.be/GuZpeobFsZw)
+- Prepare and share your project for collaboration
+- Contribute to the betterment of a project via pull requests
+- Organize an event
+- Mentor others
+- Donate directly to open source projects
 
-If above link doesn't work watch [here](https://youtu.be/GuZpeobFsZw).
+## How to get started (Follow the steps)
 
-## Hacktoberfest 2021 Special
+### 0. Register for Hacktoberfest
 
-- We will be posting a problem daily at 10 AM related to languages like HTML/CSS, Python, JAVA, C++ till 30th Oct.
+https://hacktoberfest.digitalocean.com/
 
-- No need to get issues, you can directly attempt and submit by following instruction written in issue description.
+### 1. Give this Project a Star :star:
 
-- We will review comments, PRs raised at 5 PM and then 10 PM to provide feedback so that you can make necessary changes.
+If you liked working on this repo, please share this repo as much
+as you can and star this repo to help as many people in opensource as you can.
 
-- You have time till 10 AM next day to submit, we will not accept any PR post this deadline.
+### 2. Fork Repository
 
-- Make sure you take from latest code and don't edit any other file. 
+You can fork repository in which you want to contribute.
+fork:- (means) it create a copy of repository in your account to commit.
 
-If you wish to stay updated, join our Whatsapp Group [here](https://chat.whatsapp.com/H0Hn3m1sgKHKeJdoCSb74A)
+### 3. Clone Repository
 
-Open source is changing the world- one pull request at a time.
-Hactoberfest encourages participation in open source community, which grows bigger every year. 
-Complete the 2021 challenge and earn a limited edition T-shirt.
+after forking type following command in terminal to clone in your pc
 
-## Programming Languages 
-This Repository consists of following programming languages
-  -  HTML : 58.8%
-  -  Python : 12.0%
-  -  Java : 13.2% 
-  -  C++ : 8.7%
-  - JavaScript : 5.2% 
-  - CSS : 0.7%
-
-## Steps to setup this Repository Locally
-
-  1. Fork this repository to your account.
-
-![PicsArt_10-04-08 04 45](https://user-images.githubusercontent.com/64744084/95018364-e7d2df00-067c-11eb-9989-5ed586adb11b.jpg)
-
-  2. Go to Git Bash and Clone the forked repository using :
-       
-       a. Clone the repository
-```bash
-   git clone https://github.com/your_username/make-pull-request
 ```
-![PicsArt_10-04-07 46 13](https://user-images.githubusercontent.com/64744084/95018081-e3a5c200-067a-11eb-8a51-acde725b0345.png)
-
- 3. Open the folder in your favourite code editor and add your changes or modifications.
- 
-## Creating a PR 
- 
- 1. After making changes or modification on to your code locally, you need to add these files to the staging area.
-```bash
-  git add <file-name>
+git clone https://github.com/user-name/Hacktober2020.git
 ```
- 2. Once files added, you need to commit the changes to with an appropriate commit message.
-```bash
-  git commit -m "<your-message>"
+
+replace user-name with your github username
+
+or
+
+you can get a link from green button click to copy that link
+that link must be from your own forked copy.
+
+### 4. Create branch
+
+Type following command in terminal window
+
 ```
- 3. After commiting the changes, you need to push the changes
-```bash
-   git push origin <branch-name>
+git checkout -b new-branch-name
 ```
- 4. Once you push the changes to your repository, the Compare & pull request button will appear in GitHub.
 
- 5. Click it and you'll be taken to this screen
+### 5. Add code in respective languages folder
 
- 6. Type a proper description and give the PR an appropriate title. Finally, Open a pull request by clicking the Create pull request button.
+Once you have completed these steps, you are ready to start contributing
+whatever programming language you know, you can contribute your code in that.
+However, Your code files must be in respective folder. By doing this repository will be organized and well maintained.
+hope you follow this. I'll add your namme in contributors list as you start contibuting.
 
- 7. That's it. You have opened a PR. Wait for it to get merged.
+### 6. Commit Changes
 
-## Thank You for your Amazing Contribution!!
+Type following commands
 
+```
+git add .
+git commit -m "message about commit"
+```
 
+### 7. Configure a Remote for the Fork
+
+Next, you’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. You’ll have to do this with the `git remote add` command.
+
+```
+git remote add upstream https://github.com/ALLINONE4298/Hacktober2021.git
+```
+
+In this example, `upstream` is the shortname we have supplied for the remote repository since in terms of Git, “upstream” refers to the repository that you cloned from. If you want to add a remote pointer to the repository of a collaborator, you may want to provide that collaborator’s username or a shortened nickname for the shortname.
+
+### 8. Pull changes
+
+To get latest code
+Type following command
+
+```
+git pull upstream main
+```
+
+### 9. Push changes to Github
+
+Type following command
+
+```
+git push --set-upstream origin new-branch-name
+```
+
+### 10. Create Pull Request
+
+At this point, you are ready to make a pull request to the original repository.
+
+You should navigate to your forked repository, and press the “New pull request” button on your left-hand side of the page.
+
+### 11. And wait for owner to merge
+
+If there is no merge conflict then owner will merge your pull request.
+Have patience and contribute more.
+
+## Hurray!! You just successfully create your first pull request
+
+## Disclaimer
+
+This is Just for Beginners to help for their contributions and make them familiar with open source.
+This is a free platform to make mistakes and learn from them.
+
+## Contributors
+
+Thanks ♥ to All Contributors 🔥🔥
+
+<a href = "https://github.com/pushanverma/hacktoberfest2k21/graphs/contributors">
+<img src = "https://contrib.rocks/image?repo=pushanverma/hacktoberfest2k21"/>
+</a>
 
 
 
