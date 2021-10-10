@@ -133,5 +133,6 @@ Thanks ♥ to All Contributors 🔥🔥
 <img src = "https://contrib.rocks/image?repo=pushanverma/hacktoberfest2k21"/>
 </a>
 
-
-
+![Issues](https://img.shields.io/github/issues/pushanverma/hacktoberfest2k21)
+![Stars GitHub](https://img.shields.io/github/stars/pushanverma/hacktoberfest2k21)
+![Forks](https://img.shields.io/github/forks/pushanverma/hacktoberfest2k21)
