@@ -20,9 +20,22 @@ char maxfreq(string str) {
     return ch;
 }
 int main() {
-
-    string str;
-    cin >> str;
-    cout << "character with maximum frequency : " << maxfreq(str);
+    
+    bool loop;
+    char decision;
+    
+    do
+    {
+        string str;
+        cout<<"insert the string"<<endl<<">>";
+        cin >> str;
+        cout << "character with maximum frequency : " << maxfreq(str);
+        cout<<endl<<"------------------------------"<<endl<<"do you want to continue? Y/N"<<endl<<">>";
+        cin>>decision;
+        if(decision=='Y'||decision=='y') loop=true;
+        else loop=false;
+        cout>>endl;
+        
+    }while(loop==true);
     return 0;
 }
